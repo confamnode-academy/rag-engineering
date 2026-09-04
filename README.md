@@ -21,7 +21,7 @@ JupyterLab. They work the same way.
 
 ## What you'll build
 
-A RAG system over Nigerian business documents — bank policies, regulatory
+A RAG system over business documents — bank policies, regulatory
 circulars, an annual report, board minutes, a scanned tax notice.
 
 The documents are deliberately difficult. One policy exists in two versions with

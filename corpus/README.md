@@ -1,6 +1,6 @@
-# RAG Engineering — Course Corpus (Nigerian, synthetic)
+# RAG Engineering — Course Corpus (synthetic)
 
-Fifteen documents in eight formats from three fictional Nigerian organisations, built to fail in
+Fifteen documents in eight formats from three fictional organisations, built to fail in
 specific ways.
 
 **Every document in this corpus is synthetic.** The organisations do not exist. The figures are
