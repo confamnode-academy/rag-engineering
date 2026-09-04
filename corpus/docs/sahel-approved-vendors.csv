@@ -1,0 +1,14 @@
+vendor_id,vendor_name,category,address,tcc_expiry,contract_value_ngn
+V-0041,Bako Logistics Limited,Haulage,"12 Ahmadu Bello Way
+Kaduna South
+Kaduna State",2025-12-31,840000000
+V-0058,Okonkwo & Sons Nigeria Ltd,Packaging,"Plot 3, Trans-Amadi Industrial Layout
+Port Harcourt",2025-12-31,112500000
+V-0063,Sahel Facility Services,"Cleaning, security","44 Ogunlana Drive
+Surulere
+Lagos",2024-12-31,18400000
+V-0071,Gwagwalada Power Systems,"Generators, maintenance","Km 8, Abuja–Lokoja Road
+Gwagwalada, FCT",2026-12-31,295000000
+V-0080,Etim Print Concepts,Printing,"9 Marian Road
+Calabar",2023-12-31,6750000
+# Extract from the Approved Vendor List. V-0080 registration lapsed; do not raise new purchase orders.

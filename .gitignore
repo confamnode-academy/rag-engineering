@@ -1,28 +1,16 @@
-# Regenerable artifacts — never committed
-*.index
-*.faiss
-embeddings/
-.parsed/
-data/
-corpus/padding/
-
-# Environment
+# Secrets
 .env
-.venv/
+ 
+# Regenerable
+embeddings/
+*.index
+corpus/corpus_src/
+
+# Python / Jupyter
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-.pytest_cache/
-.ruff_cache/
-
-# Notebook outputs are stripped before commit (see nbstripout in [dev])
-# but keep the checkpoint dirs out regardless
-
-# Docker
-docker/pgdata/
-
-# Never
-client/
-*.pem
-credentials*.json
-.env
+.venv/
+ 
+# OS
+.DS_Store
