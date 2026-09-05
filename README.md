@@ -80,5 +80,5 @@ Read `corpus/README.md` early — it explains what's wrong with each document.
 ## The documents are synthetic
 
 The organisations don't exist and the figures are invented; every file says so in
-its footer. They behave like real Nigerian business documents so the problems are
+its footer. They behave like real business documents so the problems are
 real, but nothing in them is a fact about any actual company.
