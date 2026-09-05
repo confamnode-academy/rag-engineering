@@ -1,0 +1,591 @@
+{
+  "label": "module-02 baseline",
+  "created": "2026-09-05T15:53:08+00:00",
+  "metric": "hit@1",
+  "score": 0.4444,
+  "n": 36,
+  "pipeline": {
+    "documents": 7,
+    "chunks": 71,
+    "chunk_size": 500,
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "question": "How many working days of annual leave is a confirmed staff member entitled to?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q02",
+      "question": "What is the domestic per diem for staff travelling on Bank business?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q03",
+      "question": "How many days per week may Head Office staff work remotely?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q04",
+      "question": "How long is the probationary period?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q05",
+      "question": "How much annual leave may be carried into the following year and by when must it be used?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness+multi-fact",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q06",
+      "question": "What notice period applies to confirmed staff on resignation?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "staleness",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q07",
+      "question": "Is accrued leave paid out if a staff member is dismissed for gross misconduct?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "negation",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q08",
+      "question": "Within how many hours must a material cyber incident be notified to the Commission?",
+      "expected": "nfsc-circular-2025-02-amendment.pdf",
+      "returned": [
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "amendment",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q09",
+      "question": "What financial loss makes a cyber incident material?",
+      "expected": "nfsc-circular-2025-02-amendment.pdf",
+      "returned": [
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "amendment",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q10",
+      "question": "By when must an institution with total assets below NGN 5 billion encrypt customer data at rest?",
+      "expected": "nfsc-circular-2025-02-amendment.pdf",
+      "returned": [
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "amendment+table",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q11",
+      "question": "How many institutions may share a Chief Information Security Officer?",
+      "expected": "nfsc-circular-2025-02-amendment.pdf",
+      "returned": [
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "clarification",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q12",
+      "question": "Can SMS one-time password alone satisfy multi-factor authentication for privileged accounts?",
+      "expected": "nfsc-circular-2024-07-cybersecurity.pdf",
+      "returned": [
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "negation",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q13",
+      "question": "What penalty applies for missing a compliance date without a written extension?",
+      "expected": "nfsc-circular-2024-07-cybersecurity.pdf",
+      "returned": [
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "easy",
+      "failure_class": "lookup",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q14",
+      "question": "Who approves a purchase of NGN 3 million?",
+      "expected": "sahel-procurement-policy-v3.pdf",
+      "returned": [
+        "nfsc-circular-2025-02-amendment.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "table-band",
+      "reachable": true,
+      "hit": false
+    },
+    {
+      "id": "Q15",
+      "question": "What is the maximum value of an emergency procurement without competitive sourcing?",
+      "expected": "sahel-procurement-policy-v3.pdf",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "sahel-procurement-policy-v3.pdf"
+      ],
+      "difficulty": "easy",
+      "failure_class": "lookup",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q16",
+      "question": "How many written quotations are needed for a purchase of NGN 1.8 million?",
+      "expected": "sahel-procurement-policy-v3.pdf",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "table-band",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q17",
+      "question": "Can a vendor registered for eight months receive an advance payment?",
+      "expected": "sahel-procurement-policy-v3.pdf",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "negation",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q18",
+      "question": "What was Kaduna Agro Processing's revenue in 2020?",
+      "expected": "kaduna-agro-annual-report-2024.pdf",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "chart-only",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q19",
+      "question": "In which year was gross margin lowest and what was it?",
+      "expected": "kaduna-agro-annual-report-2024.pdf",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "chart-only",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q20",
+      "question": "What was capacity utilisation across all facilities in 2024?",
+      "expected": "kaduna-agro-annual-report-2024.pdf",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "kaduna-agro-annual-report-2024.pdf"
+      ],
+      "difficulty": "easy",
+      "failure_class": "lookup",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q21",
+      "question": "What was the volume and utilisation at the Sokoto North distribution point?",
+      "expected": "kaduna-agro-annual-report-2024.pdf",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "page-spanning-table",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q22",
+      "question": "Why was the lowest bidder not recommended for the haulage contract?",
+      "expected": "kaduna-agro-board-minutes-2024-10-17.pdf",
+      "returned": [
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "attribution",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q23",
+      "question": "Which director withdrew from the haulage contract decision and why?",
+      "expected": "kaduna-agro-board-minutes-2024-10-17.pdf",
+      "returned": [
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "attribution",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q24",
+      "question": "How long is a Tax Clearance Certificate valid?",
+      "expected": "kdirs-guidance-note-4-2024-SCANNED.pdf",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "ocr-required",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q25",
+      "question": "What is the maternity leave entitlement for staff with six months of service?",
+      "expected": "sahel-employee-handbook-2025.pdf",
+      "returned": [
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "negation+trap",
+      "reachable": true,
+      "hit": true
+    },
+    {
+      "id": "Q28",
+      "question": "What per diem does memorandum SMB/HR/MEMO/2024/41 set?",
+      "expected": "sahel-hr-memo-2024-41-TRACKED.docx",
+      "returned": [
+        "sahel-employee-handbook-2025.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "tracked-changes",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q29",
+      "question": "What is revenue per tonne at the Ikeja distribution point?",
+      "expected": "kaduna-agro-distribution-2024.xlsx",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "formula-no-cache",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q30",
+      "question": "What was total distribution volume in 2024?",
+      "expected": "kaduna-agro-distribution-2024.xlsx",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-annual-report-2024.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "hidden-sheet",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q31",
+      "question": "What is the remaining capital requirement for the Ogbomoso commissioning?",
+      "expected": "kaduna-agro-board-deck-2025-01.pptx",
+      "returned": [
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "nfsc-circular-2025-02-amendment.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "speaker-notes-only",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q32",
+      "question": "Which three distribution points were approved for closure?",
+      "expected": "kaduna-agro-board-deck-2025-01.pptx",
+      "returned": [
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-annual-report-2024.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf",
+        "kaduna-agro-board-minutes-2024-10-17.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "speaker-notes-only",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q33",
+      "question": "Does the revised per diem apply to a journey approved in December 2024 but commencing in January 2025?",
+      "expected": "sahel-per-diem-thread.eml",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "email-thread",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q34",
+      "question": "Are corps members on official travel covered by the revised per diem?",
+      "expected": "sahel-per-diem-thread.eml",
+      "returned": [
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "hard",
+      "failure_class": "email-thread+negation",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q35",
+      "question": "How many vendors are on the approved vendor extract?",
+      "expected": "sahel-approved-vendors.csv",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "embedded-newlines",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q36",
+      "question": "Which approved vendor has a lapsed tax clearance certificate?",
+      "expected": "sahel-approved-vendors.csv",
+      "returned": [
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "nfsc-circular-2025-02-amendment.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "trailing-note",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q37",
+      "question": "What is the maximum overnight cash holding for a Tier 2 branch?",
+      "expected": "sahel-branch-runbook.md",
+      "returned": [
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-employee-handbook-2023.pdf",
+        "sahel-employee-handbook-2025.pdf",
+        "sahel-procurement-policy-v3.pdf",
+        "sahel-employee-handbook-2025.pdf"
+      ],
+      "difficulty": "easy",
+      "failure_class": "lookup",
+      "reachable": false,
+      "hit": false
+    },
+    {
+      "id": "Q38",
+      "question": "What does circular NFSC/CIR/2025/02 change about incident reporting?",
+      "expected": "nfsc-circular-2025-02.html",
+      "returned": [
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2025-02-amendment.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf",
+        "nfsc-circular-2024-07-cybersecurity.pdf"
+      ],
+      "difficulty": "medium",
+      "failure_class": "html-boilerplate",
+      "reachable": false,
+      "hit": false
+    }
+  ]
+}
