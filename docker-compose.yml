@@ -23,7 +23,9 @@ services:
       - lab-local:/home/jovyan/.local
       - hf-cache:/home/jovyan/.cache/huggingface
     working_dir: /home/jovyan/work
-    command: start-notebook.py --ServerApp.root_dir=/home/jovyan/work
+    command: >
+      bash -c "pip install --no-cache-dir -q ipywidgets &&
+               start-notebook.py --ServerApp.root_dir=/home/jovyan/work"
 
 volumes:
   lab-local:
